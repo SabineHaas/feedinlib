@@ -4,6 +4,7 @@ Created on Fri Oct  9 16:01:02 2015
 
 @author: uwe
 """
+# todo: function for retrieving all possible weather locations as df[['lat', 'lon']]
 
 import pandas as pd
 
