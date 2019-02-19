@@ -13,7 +13,8 @@ class Region:
         :param geom: polygon
         :param weather: Weather Objekt
         """
-        pass
+        self.geom = geom
+        self.weather = weather
 
     def wind_feedin(self, register, assignment_func=None, snapshots=None,
                     **kwargs):
